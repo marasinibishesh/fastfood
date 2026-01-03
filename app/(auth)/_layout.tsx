@@ -43,3 +43,39 @@ export default function _layout() {
     </View>
   )
 }
+// import { View, Text, KeyboardAvoidingView, Platform, ScrollView, Dimensions, ImageBackground, Image } from 'react-native'
+// import React from 'react'
+// import { SafeAreaView } from 'react-native-safe-area-context'
+// import { Slot } from 'expo-router'
+// import { images } from '@/constants'
+// import Custominput from '@/components/Custominput'
+// import CustomButton from '@/components/CustomButton'
+
+// export default function _layout() {
+//   return (
+    
+        
+//           <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':'height'}>
+//             <ScrollView className='bg-white h-full' keyboardShouldPersistTaps="handled">
+//               <View
+//   className="w-full"
+//   style={{ height: Dimensions.get('screen').height / 2.25 }}
+// >
+//   <ImageBackground
+//     source={images.thakali}
+//     resizeMode="cover"
+//     style={{ flex: 1 }}
+//     imageStyle={{
+//       borderBottomLeftRadius: 10,      borderBottomRightRadius: 10,
+//     }}
+//   />
+//   <Image source={images.logo} className='self-center size-24 absolute -bottom-16 z-10 rounded-2xl'/>
+// </View>
+//        <Slot/>      
+// </ScrollView> 
+          
+// </KeyboardAvoidingView>
+          
+    
+//   )
+// }
