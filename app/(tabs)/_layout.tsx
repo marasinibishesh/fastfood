@@ -38,11 +38,25 @@ export default function Tablayout() {
     <Tabs
       screenOptions={{
         tabBarShowLabel: false,
+        headerShown:false,
         tabBarStyle: {
           backgroundColor: '#fff',
           borderTopWidth: 1,
           borderTopColor: '#E5E7EB',
-          paddingTop: 8,
+          paddingTop: 20,
+          borderTopLeftRadius:50,
+          borderTopRightRadius:50,
+          borderBottomLeftRadius:50,
+          borderBottomRightRadius:50,
+          marginHorizontal:20,
+          height:80,
+          position:'absolute',
+          bottom:40,
+          shadowColor:'#1a1a1a',
+          shadowOffset:{width:0,height:2},
+          shadowOpacity:0.1,
+          shadowRadius:4,
+          elevation:5
         }
       }}
     >

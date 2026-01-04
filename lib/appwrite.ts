@@ -5,7 +5,11 @@ export const appwriteConfig={
     platform:"com.ffn.fastfoodnepal",
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     databaseId:'695504c50013ab75005e',
-    userCollectionId:'user'
+    userCollectionId:'user',
+    categoriesCollectionId:'categories',
+    menuCollectionId:'menu',
+    customizationsCollectionId:'customizations',
+    menuCustomizationCollectionId:'menu_customizations'
 }
 
 export const client=new Client();
