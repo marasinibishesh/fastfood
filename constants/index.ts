@@ -13,6 +13,7 @@ import minus from "@/assets/icons/minus.png";
 import pencil from "@/assets/icons/pencil.png";
 import person from "@/assets/icons/person.png";
 import phone from "@/assets/icons/phone.png";
+import wraps from '@/assets/images/wraps.png'
 import plus from "@/assets/icons/plus.png";
 import search from "@/assets/icons/search.png";
 import star from "@/assets/icons/star.png";
@@ -99,75 +100,51 @@ export const CATEGORIES = [
 export const offers = [
     {
         id: 1,
-        title: "Veg Momo",
+        title: "Momo",
         image: vmomo,
-        color: "#084137",
+        color: "#EB920C",
     },
     {
         id: 2,
-        title: "Chicken Momo",
-        image: cmomo,
-        color: "#D33B0D",
-    },
-    {
-        id: 3,
-        title: "Chicken Khana",
+        title: "Khana",
         image: cthali,
         color: "#D33B0D",
     },
     {
-        id: 4,
-        title: "Veg Khana",
-        image: vthali,
+        id: 3,
+        title: "Chowmein",
+        image: cchowmein,
         color: "#084137",
     },
     {
+        id: 4,
+        title: "Burger",
+        image: burgerTwo,
+        color: "#EB920C",
+    },
+    {
         id: 5,
-        title: "Kothey Momo",
-        image: kotheymomo,
-        color: "#DF5A0C",
+        title: "Pizza",
+        image: pizzaOne,
+        color: "#084137",
     },
     {
         id: 6,
-        title: "Jhol Momo",
-        image: jholemomo,
+        title: "BURRITO DELIGHT",
+        image: buritto,
         color: "#DF5A0C",
     },
     {
         id: 7,
-        title: "Chicken Chowmein",
-        image: cchowmein,
+        title: "Wraps",
+        image: wraps,
         color: "#D33B0D",
     },
     {
         id: 8,
-        title: "Veg Chowmein",
-        image: vchowmein,
-        color: "#084137",
-    },
-    {
-        id: 9,
-        title: "SUMMER COMBO",
-        image: burgerOne,
+        title: "Soup",
+        image: vsoup,
         color: "#EB920C",
-    },
-    {
-        id: 10,
-        title: "BURGER BASH",
-        image: burgerTwo,
-        color: "#D33B0D",
-    },
-    {
-        id: 11,
-        title: "PIZZA PARTY",
-        image: pizzaOne,
-        color: "#DF5A0C",
-    },
-    {
-        id: 12,
-        title: "BURRITO DELIGHT",
-        image: buritto,
-        color: "#DF5A0C",
     },
     
 
