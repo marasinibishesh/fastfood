@@ -175,6 +175,9 @@ export const sides = [
         name: "Salad",
         image: salad,
         price: 150,
+
+
+        
     },
 ];
 
